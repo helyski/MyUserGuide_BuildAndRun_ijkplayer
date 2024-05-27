@@ -243,6 +243,16 @@ make: *** [libavcodec/hevc_mvs.o] Error 1
 ## 5.4 ffmpeg x86编译失败
 目前只需要android的，故不处理。但是后面编ijkplayer的时候不能使用all，否则会报错。
 
+## 5.5 编译需要修改的总结
+这个本应该放在第4章节前去说明的，如此便能一次编译通过，但是不符合事物发展的规律。
+
+（1）修改以支持HEVC（上面已有描述）
+![](select_hevc_script.jpg)
+
+（2）修改第5章节的issues
+![](fix_issues_1_2_3.jpg)
+
+
 # 6、AS导入编译出来的demo工程
 （1）使用2022.3.1 Patch 3版本的AS需要修改gradle插件版本相关的配置。
 
@@ -340,19 +350,19 @@ dependencies {
 
 # 7、参考文档
 （1）编译错误，主要看前4个issues    
-https://github.com/befovy/ijkplayer/issues
-https://github.com/befovy/ijkplayer/issues/16
-https://github.com/Bilibili/ijkplayer/issues/4093
-https://github.com/bilibili/ijkplayer/issues/4778
-https://blog.csdn.net/hhbgk/article/details/99191916    
+https://github.com/befovy/ijkplayer/issues    
+https://github.com/befovy/ijkplayer/issues/16    
+https://github.com/Bilibili/ijkplayer/issues/4093    
+https://github.com/bilibili/ijkplayer/issues/4778    
+https://blog.csdn.net/hhbgk/article/details/99191916        
 （2）运行错误    
 https://blog.csdn.net/shulianghan/article/details/132281575    
 （3）环境配置    
-https://zhuanlan.zhihu.com/p/639699114
-https://blog.csdn.net/Ruomiz/article/details/78456187
-https://www.jianshu.com/p/86b9c57bf838    
+https://zhuanlan.zhihu.com/p/639699114    
+https://blog.csdn.net/Ruomiz/article/details/78456187    
+https://www.jianshu.com/p/86b9c57bf838      
 （4）下载    
-https://github.com/android/ndk/wiki/Unsupported-Downloads
+https://github.com/android/ndk/wiki/Unsupported-Downloads    
 
 
 
