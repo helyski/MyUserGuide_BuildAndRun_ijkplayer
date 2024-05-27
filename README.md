@@ -1,0 +1,2 @@
+# MyUserGuide_BuildAndRun_ijkplayer
+我总结的ijkplayer编译和运行指导。
